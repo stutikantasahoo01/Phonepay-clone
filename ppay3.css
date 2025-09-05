@@ -1,0 +1,211 @@
+.cashback-section {
+    width: 90%;
+    height: 55px;
+    background-color: #230543;
+    padding: 8px 15px;
+    margin: 0px auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    position: relative;
+
+}
+
+.cashback-section .flat-note {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    font-size: .7rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+}
+
+.cashback-section span {
+    font-size: .5rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.cashback-section img:nth-child(3) {
+    width: 60px;
+    height: 70px;
+    position: absolute;
+    right: 0px;
+    bottom: -8px;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    background-color: #484449;
+    margin: 10px auto;
+}
+
+.rewards-refer {
+    width: 90%;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 8px;
+}
+
+.rewards-refer .rewards,
+.refer {
+    width: 48%;
+    height: 80px;
+    background-color: #18171B;
+    border: 1px solid #484449;
+    border-radius: 8px;
+    margin: 0px 3px;
+
+}
+
+.rewards-refer .rewards {
+    display: flex;
+    flex-direction: column;
+    padding: 7px;
+    position: relative;
+    row-gap: 2px;
+    overflow: hidden;
+}
+
+.rewards-refer .rewards h2 {
+    font-size: .7rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+
+.rewards-refer .rewards span {
+    font-size: .5rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.rewards-refer .rewards .new-notification {
+    width: 35px;
+    background-color: #a070d3;
+    color: #2f074c;
+    padding: 0px 3px;
+    border-radius: 3px;
+    font-size: .5rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin: 3px 0px;
+}
+
+.rewards-refer .rewards img:nth-child(4) {
+    width: 50px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+.rewards-refer .refer {
+    padding: 7px;
+    position: relative;
+    overflow: hidden;
+}
+
+.rewards-refer .refer span {
+    font-size: .5rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.rewards-refer .refer h2 {
+    font-size: .7rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+
+}
+
+.rewards-refer .refer img:nth-child(3) {
+    position: absolute;
+    width: 50px;
+    height: 45px;
+    right: 0;
+    bottom: 0;
+}
+
+.bussiness-app-download {
+    width: 100%;
+    height: 100px;
+    background-color: #0c551c;
+    padding: 10px;
+    position: relative;
+}
+
+.bussiness-app-download h3 {
+    color: white;
+    font-size: 1rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-top: 2px;
+    margin-left: 5px;
+
+}
+
+.bussiness-app-download .download-app {
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.bussiness-app-download .download-app a {
+    font-size: .7rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: white;
+    text-decoration: none;
+
+}
+
+.bussiness-app-download img:nth-child(4) {
+    width: 140px;
+    height: 120px;
+    position: absolute;
+    right: 0;
+    bottom: 0px;
+}
+
+.footer {
+    width: 100%;
+    height: 50px;
+    background-color: #18171B;
+    border: 1px solid #484449;
+    position: sticky;
+    bottom: 0;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: .8rem;
+}
+
+.footer .fa-qrcode {
+    font-size: 1.1rem;
+    background-color: #55228b;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
